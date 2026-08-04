@@ -1,0 +1,121 @@
+{
+  "controls": [
+    {
+      "id": "price",
+      "type": "slider",
+      "label": "Product price",
+      "description": "Set the perceived value for early adopters.",
+      "min": 19,
+      "max": 69,
+      "step": 1,
+      "unit": "$"
+    },
+    {
+      "id": "subscription",
+      "type": "select",
+      "label": "Subscription model",
+      "description": "Choose the model that fits your go-to-market motion.",
+      "options": ["Monthly", "Annual", "Freemium", "Tiered"]
+    },
+    {
+      "id": "audience",
+      "type": "select",
+      "label": "Target audience",
+      "description": "Choose the segment to focus the launch on.",
+      "options": ["Founders", "Designers", "Freelancers", "Marketers", "Consultants"]
+    },
+    {
+      "id": "marketing",
+      "type": "slider",
+      "label": "Marketing budget",
+      "description": "Choose your launch marketing intensity.",
+      "min": 30,
+      "max": 120,
+      "step": 5,
+      "unit": "k"
+    },
+    {
+      "id": "features",
+      "type": "slider",
+      "label": "Number of features",
+      "description": "Decide how broad the initial product scope will be.",
+      "min": 4,
+      "max": 14,
+      "step": 1,
+      "unit": "features"
+    },
+    {
+      "id": "launchMonth",
+      "type": "select",
+      "label": "Launch month",
+      "description": "Choose the launch window that fits your roadmap.",
+      "options": ["January", "March", "May", "July", "September", "November"]
+    },
+    {
+      "id": "competitor",
+      "type": "select",
+      "label": "Competitor strength",
+      "description": "Gauge how strong competitors are within this market.",
+      "options": ["Weak", "Moderate", "Strong", "Dominant"]
+    },
+    {
+      "id": "cac",
+      "type": "slider",
+      "label": "Customer acquisition cost",
+      "description": "Estimate the cost to acquire a paying customer.",
+      "min": 10,
+      "max": 120,
+      "step": 5,
+      "unit": "$"
+    }
+  ],
+  "audienceScores": {
+    "Founders": 10,
+    "Designers": 8,
+    "Freelancers": 9,
+    "Marketers": 7,
+    "Consultants": 8
+  },
+  "subscriptionScores": {
+    "Monthly": 7,
+    "Annual": 8,
+    "Freemium": 9,
+    "Tiered": 8
+  },
+  "monthScores": {
+    "January": 8,
+    "March": 9,
+    "May": 10,
+    "July": 9,
+    "September": 10,
+    "November": 8
+  },
+  "competitorScores": {
+    "Weak": 9,
+    "Moderate": 7,
+    "Strong": 5,
+    "Dominant": 3
+  },
+  "decisionSummary": [
+    {
+      "id": "focus",
+      "title": "Focus your launch narrative",
+      "detail": "Align the scenario around a single audience to sharpen messaging and reduce rollout risk."
+    },
+    {
+      "id": "pricing",
+      "title": "Balance ambition with accessibility",
+      "detail": "A premium price helps positioning, but lower entry tiers improve early adoption."
+    },
+    {
+      "id": "features",
+      "title": "Choose a strong core set",
+      "detail": "Eight to ten focused features create depth without delaying launch."
+    },
+    {
+      "id": "marketing",
+      "title": "Match spend to momentum",
+      "detail": "Boost awareness where product-market fit is strongest and iterate rapidly."
+    }
+  ]
+}

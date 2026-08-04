@@ -1,0 +1,157 @@
+{
+  "summaryCards": [
+    {
+      "id": "product",
+      "title": "Product readiness",
+      "value": 88,
+      "unit": "%",
+      "detail": "Feature maturity and staging are aligned for early adopters.",
+      "trend": "+14 pts",
+      "accent": "#7c3aed",
+      "icon": "ShieldCheck"
+    },
+    {
+      "id": "market",
+      "title": "Market fit",
+      "value": 83,
+      "unit": "%",
+      "detail": "Customer demand signals are strong across priority segments.",
+      "trend": "+11 pts",
+      "accent": "#38bdf8",
+      "icon": "TrendingUp"
+    },
+    {
+      "id": "risk",
+      "title": "Business risk",
+      "value": 27,
+      "unit": "%",
+      "detail": "Risk exposure is low with current go-to-market assumptions.",
+      "trend": "-9 pts",
+      "accent": "#f97316",
+      "icon": "AlertTriangle"
+    },
+    {
+      "id": "confidence",
+      "title": "AI confidence",
+      "value": 91,
+      "unit": "%",
+      "detail": "Model certainty remains high across persona behaviours.",
+      "trend": "+7 pts",
+      "accent": "#22c55e",
+      "icon": "Sparkles"
+    }
+  ],
+  "recommendations": [
+    {
+      "id": 1,
+      "title": "Activate a privacy-first trust path",
+      "priority": "Critical",
+      "impact": "Trust signal lift",
+      "confidence": 94,
+      "revenue": "+18%",
+      "difficulty": "Medium",
+      "timeline": "2 weeks",
+      "reasoning": "Early adopter personas signal that privacy reassurance is the most important purchase trigger in the premium segment. Reinforcing trust at first contact lowers initial drop-off.",
+      "nextAction": "Design a dedicated trust section, add security proof points, and run a privacy-first A/B test on the landing flow.",
+      "accent": "#fb7185"
+    },
+    {
+      "id": 2,
+      "title": "Package first-win workflows",
+      "priority": "High",
+      "impact": "Conversion lift",
+      "confidence": 90,
+      "revenue": "+14%",
+      "difficulty": "Low",
+      "timeline": "1 week",
+      "reasoning": "Personas consistently want a fast signal that the product delivers value immediately. A first-win workflow reduces friction and gives buyers a clear reason to commit.",
+      "nextAction": "Create a simplified onboarding funnel that highlights the first key insight in under 60 seconds.",
+      "accent": "#60a5fa"
+    },
+    {
+      "id": 3,
+      "title": "Launch competitor comparison content",
+      "priority": "High",
+      "impact": "Competitive defense",
+      "confidence": 88,
+      "revenue": "+12%",
+      "difficulty": "Medium",
+      "timeline": "3 weeks",
+      "reasoning": "Prospective buyers compare alternatives before they commit. Clear differentiation in marketing content helps reduce churn from pricing and feature uncertainty.",
+      "nextAction": "Publish a comparison guide that shows where PersonaForge wins on accuracy, speed, and premium customer intelligence.",
+      "accent": "#60a5fa"
+    },
+    {
+      "id": 4,
+      "title": "Build a persona-led onboarding experience",
+      "priority": "Medium",
+      "impact": "Engagement boost",
+      "confidence": 82,
+      "revenue": "+10%",
+      "difficulty": "High",
+      "timeline": "4 weeks",
+      "reasoning": "Users want onboarding that feels tailored to their context. Persona-driven onboarding improves early retention by matching the product narrative to customer needs.",
+      "nextAction": "Map the top five persona journeys and surface the most relevant features in the first onboarding cycle.",
+      "accent": "#f59e0b"
+    },
+    {
+      "id": 5,
+      "title": "Enable self-serve analytics for early customers",
+      "priority": "Medium",
+      "impact": "Retention gain",
+      "confidence": 79,
+      "revenue": "+9%",
+      "difficulty": "Medium",
+      "timeline": "5 weeks",
+      "reasoning": "Buyers who can explore their own insights feel more ownership over the product. Self-serve analytics keep customers engaged beyond the first purchase.",
+      "nextAction": "Add a lightweight analytics dashboard with key persona metrics and usage signals for trial users.",
+      "accent": "#f59e0b"
+    },
+    {
+      "id": 6,
+      "title": "Optimize pricing tiers with clear value brackets",
+      "priority": "Critical",
+      "impact": "Price acceptance",
+      "confidence": 92,
+      "revenue": "+16%",
+      "difficulty": "High",
+      "timeline": "3 weeks",
+      "reasoning": "Pricing confusion is a top barrier. Better tier clarity and explicit value brackets increase buyer confidence and reduce hesitation at checkout.",
+      "nextAction": "Rework tier copy with explicit outcomes, persona use cases, and a clear rationale for each package.",
+      "accent": "#fb7185"
+    },
+    {
+      "id": 7,
+      "title": "Pilot premium ecosystem bundles",
+      "priority": "Medium",
+      "impact": "Average revenue",
+      "confidence": 76,
+      "revenue": "+11%",
+      "difficulty": "Medium",
+      "timeline": "6 weeks",
+      "reasoning": "High-intent personas respond well to bundled promise of multiple benefits. Bundles can lift average deal size if the included features solve a cohesive problem set.",
+      "nextAction": "Test a bundle that combines product intelligence, pricing insights, and onboarding templates for premium buyers.",
+      "accent": "#f59e0b"
+    },
+    {
+      "id": 8,
+      "title": "Create customer success rituals",
+      "priority": "Low",
+      "impact": "Long-term loyalty",
+      "confidence": 73,
+      "revenue": "+7%",
+      "difficulty": "Low",
+      "timeline": "4 weeks",
+      "reasoning": "Low-risk customers value routine and guidance. Consistent success rituals help them realize sustained value and improve advocacy.",
+      "nextAction": "Develop onboarding checkpoints, follow-up nudges, and success playbooks for new customers.",
+      "accent": "#22c55e"
+    }
+  ],
+  "actionChecklist": [
+    { "id": "reduce-price", "label": "Reduce price", "completed": false },
+    { "id": "offline-mode", "label": "Add Offline Mode", "completed": false },
+    { "id": "improve-onboarding", "label": "Improve Onboarding", "completed": false },
+    { "id": "focus-students", "label": "Focus Students", "completed": false },
+    { "id": "increase-marketing", "label": "Increase Marketing", "completed": false }
+  ]
+}

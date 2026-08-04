@@ -1,0 +1,1 @@
+export function LoadingState(){return <div className="persona-skeletons">{Array.from({length:8},(_,i)=><i key={i}/>)}</div>};export function EmptyState(){return <div className="persona-empty"><b>◌</b><h3>No matching personas found</h3><p>Try clearing a filter or broadening your search.</p></div>}

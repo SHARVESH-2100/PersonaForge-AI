@@ -1,0 +1,3 @@
+import { createContext, useContext, useMemo, useState } from 'react';
+const ScenarioContext=createContext(null);const initial={price:49,subscription:'Tiered',audience:'Startup founders',marketing:18000,features:8,launchMonth:'September',competitor:58,cac:42,monthlyUsers:1200};
+export function ScenarioProvider({children}){const[scenario,setScenario]=useState(initial);const value=useMemo(()=>({scenario,setValue:(key,value)=>setScenario(s=>({...s,[key]:value})),reset:()=>setScenario(initial)}),[scenario]);return <ScenarioContext.Provider value={value}>{children}</ScenarioContext.Provider>};export function useScenario(){const value=useContext(ScenarioContext);if(!value)throw new Error('useScenario must be used within ScenarioProvider');return value}

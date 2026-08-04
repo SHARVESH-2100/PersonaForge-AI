@@ -1,0 +1,127 @@
+{
+  "executiveSummary": [
+    { "id": "validation", "label": "Validation score", "value": 94, "suffix": "/100", "detail": "Strong product signal across five market segments.", "trend": "+12 pts vs benchmark", "accent": "#8b5cf6" },
+    { "id": "readiness", "label": "Launch readiness", "value": 87, "suffix": "%", "detail": "Customer demand and go-to-market alignment are strong.", "trend": "High readiness", "accent": "#14b8a6" },
+    { "id": "confidence", "label": "AI confidence", "value": 92, "suffix": "%", "detail": "Behavioural predictions are consistent across personas.", "trend": "Low variance", "accent": "#22c55e" },
+    { "id": "risk", "label": "Risk level", "value": 21, "suffix": "%", "detail": "Price and adoption are the primary areas to monitor.", "trend": "Manageable risk", "accent": "#f97316" }
+  ],
+  "kpiCards": [
+    { "id": "purchase", "title": "Purchase probability", "value": 78, "unit": "%", "trend": "+6%", "trendLabel": "week over week", "sparkline": [56, 62, 68, 72, 74, 77, 78], "accent": "#7c3aed", "icon": "ShoppingCart" },
+    { "id": "revenue", "title": "Revenue forecast", "value": 4.2, "unit": "M", "trend": "+18%", "trendLabel": "next quarter", "sparkline": [2.1, 2.4, 2.9, 3.3, 3.6, 3.9, 4.2], "accent": "#0ea5e9", "icon": "DollarSign" },
+    { "id": "users", "title": "Monthly users", "value": 18.4, "unit": "k", "trend": "+14%", "trendLabel": "active cohort", "sparkline": [8.8, 10.2, 11.5, 13.1, 14.4, 16.1, 18.4], "accent": "#22c55e", "icon": "Users" },
+    { "id": "price", "title": "Recommended price", "value": 29, "unit": "$", "trend": "+2$", "trendLabel": "premium positioning", "sparkline": [24, 25, 26, 27, 27, 28, 29], "accent": "#f97316", "icon": "Tag" },
+    { "id": "market", "title": "Market fit score", "value": 81, "unit": "%", "trend": "+9%", "trendLabel": "strong product-market fit", "sparkline": [63, 66, 69, 73, 76, 79, 81], "accent": "#8b5cf6", "icon": "Sparkles" },
+    { "id": "competitor", "title": "Competitor threat", "value": 34, "unit": "%", "trend": "-7%", "trendLabel": "relative position", "sparkline": [42, 40, 37, 35, 34, 33, 34], "accent": "#ec4899", "icon": "ShieldAlert" },
+    { "id": "satisfaction", "title": "Customer satisfaction", "value": 89, "unit": "%", "trend": "+4%", "trendLabel": "positive sentiment", "sparkline": [71, 74, 78, 82, 85, 87, 89], "accent": "#22c55e", "icon": "Smile" }
+  ],
+  "chartData": {
+    "probability": [{ "name": "Launch", "value": 78 }],
+    "revenue": [
+      { "name": "Jan", "value": 1.1 },
+      { "name": "Feb", "value": 1.4 },
+      { "name": "Mar", "value": 1.7 },
+      { "name": "Apr", "value": 2.1 },
+      { "name": "May", "value": 2.6 },
+      { "name": "Jun", "value": 3.1 },
+      { "name": "Jul", "value": 4.2 }
+    ],
+    "demand": [
+      { "feature": "Auto pricing", "value": 92 },
+      { "feature": "Persona insights", "value": 84 },
+      { "feature": "Scenario builder", "value": 76 },
+      { "feature": "Template library", "value": 63 },
+      { "feature": "Stakeholder reports", "value": 55 }
+    ],
+    "segments": [
+      { "name": "Founders", "value": 32 },
+      { "name": "Designers", "value": 21 },
+      { "name": "Freelancers", "value": 26 },
+      { "name": "Marketers", "value": 14 },
+      { "name": "Consultants", "value": 7 }
+    ],
+    "pricingHeatmap": [
+      { "tier": "Starter", "grid": [45, 52, 68, 73, 81] },
+      { "tier": "Growth", "grid": [56, 68, 74, 82, 89] },
+      { "tier": "Pro", "grid": [64, 72, 82, 88, 94] },
+      { "tier": "Enterprise", "grid": [72, 81, 90, 96, 99] }
+    ],
+    "sentiment": [
+      { "name": "Positive", "value": 57, "fill": "#22c55e" },
+      { "name": "Neutral", "value": 28, "fill": "#818cf8" },
+      { "name": "Negative", "value": 15, "fill": "#f97316" }
+    ],
+    "competitor": [
+      { "subject": "Positioning", "us": 92, "rival": 74 },
+      { "subject": "UX clarity", "us": 88, "rival": 69 },
+      { "subject": "Price", "us": 76, "rival": 63 },
+      { "subject": "Support", "us": 81, "rival": 72 },
+      { "subject": "Feature depth", "us": 84, "rival": 77 }
+    ]
+  },
+  "personas": [
+    { "id": 1, "name": "Mila Torres", "profession": "Freelance Product Lead", "behaviour": "Deliberate buyer", "probability": 82, "confidence": 91, "detail": "Needs clear case studies and a painless onboarding path.", "trigger": "Quick ROI case", "objection": "Unclear team permissions" },
+    { "id": 2, "name": "Jonas Wu", "profession": "Finance Founder", "behaviour": "Value optimizer", "probability": 79, "confidence": 87, "detail": "Looks for speed and visibility before he decides.", "trigger": "Transparent pricing", "objection": "Too few integration examples" },
+    { "id": 3, "name": "Priya Singh", "profession": "Growth Marketer", "behaviour": "Proof seeker", "probability": 88, "confidence": 93, "detail": "Prioritizes trust signals and social validation.", "trigger": "Customer stories", "objection": "Privacy claim is missing" },
+    { "id": 4, "name": "Noah Green", "profession": "Operations Director", "behaviour": "Risk averse", "probability": 68, "confidence": 76, "detail": "Needs evidence that adoption will not disrupt teams.", "trigger": "Simple setup", "objection": "Unclear data ownership" },
+    { "id": 5, "name": "Iris Park", "profession": "Creative Founder", "behaviour": "Early adopter", "probability": 91, "confidence": 96, "detail": "Wants a premium experience with fast impact.", "trigger": "Instant insights", "objection": "Lacks product differentiation" }
+  ],
+  "painAnalysis": {
+    "objections": [
+      { "label": "Price feels high", "value": 88 },
+      { "label": "Data privacy unclear", "value": 78 },
+      { "label": "Too many onboarding steps", "value": 63 }
+    ],
+    "requests": [
+      { "label": "More SaaS integrations", "value": 93 },
+      { "label": "Faster setup", "value": 86 },
+      { "label": "Real-time dashboards", "value": 72 }
+    ],
+    "complaints": [
+      { "label": "Confusing pricing tiers", "value": 79 },
+      { "label": "Lack of narrative", "value": 67 },
+      { "label": "No collaboration tools", "value": 55 }
+    ],
+    "loved": [
+      { "label": "Persona accuracy", "value": 94 },
+      { "label": "Visual clarity", "value": 86 },
+      { "label": "Actionable recommendations", "value": 79 }
+    ]
+  },
+  "marketOpportunity": [
+    { "id": "market", "title": "Market size", "value": "$4.1B", "description": "Large segment of early stage founders and knowledge workers." },
+    { "id": "growth", "title": "Growth trend", "value": "27% CAGR", "description": "Sustained demand for customer-led product intelligence." },
+    { "id": "expansion", "title": "Expansion potential", "value": "4 new regions", "description": "High interest in North America, EMEA, and APAC." },
+    { "id": "business", "title": "Business opportunity", "value": "High", "description": "Validated use cases in finance, marketing, and operations." },
+    { "id": "competition", "title": "Competition index", "value": "Moderate", "description": "A gap exists for premium confidence-driven AI tools." }
+  ],
+  "risks": [
+    { "id": "pricing", "title": "Pricing risk", "score": 72, "tag": "Elevated", "color": "#f97316", "detail": "Needs stronger premium framing at purchase." },
+    { "id": "competition", "title": "Competition risk", "score": 44, "tag": "Moderate", "color": "#8b5cf6", "detail": "Rivals trail on empathy modelling but are price aggressive." },
+    { "id": "retention", "title": "Retention risk", "score": 36, "tag": "Low", "color": "#22c55e", "detail": "Repeat potential is healthy with better onboarding." },
+    { "id": "adoption", "title": "Adoption risk", "score": 59, "tag": "Manageable", "color": "#facc15", "detail": "Early users need easier first-time value." },
+    { "id": "technical", "title": "Technical risk", "score": 29, "tag": "Low", "color": "#0ea5e9", "detail": "Infrastructure and integrations are stable." },
+    { "id": "overall", "title": "Overall risk", "score": 42, "tag": "Healthy", "color": "#22c55e", "detail": "Current signal shows a strong launch posture." }
+  ],
+  "recommendations": [
+    { "id": 1, "priority": "Critical", "title": "Lead with privacy assurance", "impact": "Sales trust", "difficulty": "Medium", "timeline": "2 weeks", "revenue": "+18%", "confidence": "95%" },
+    { "id": 2, "priority": "High", "title": "Package first-win workflows", "impact": "Trial conversion", "difficulty": "Low", "timeline": "1 week", "revenue": "+14%", "confidence": "88%" },
+    { "id": 3, "priority": "High", "title": "Create competitor comparison content", "impact": "Competitive defense", "difficulty": "Medium", "timeline": "3 weeks", "revenue": "+11%", "confidence": "84%" },
+    { "id": 4, "priority": "Medium", "title": "Add a real-time persona dashboard", "impact": "Engagement", "difficulty": "High", "timeline": "5 weeks", "revenue": "+9%", "confidence": "78%" },
+    { "id": 5, "priority": "Medium", "title": "Offer custom onboarding templates", "impact": "Retention", "difficulty": "Low", "timeline": "2 weeks", "revenue": "+7%", "confidence": "83%" }
+  ],
+  "liveFeedMessages": [
+    "Analysing customer behaviour and adoption signals...",
+    "Evaluating pricing elasticities against real personas...",
+    "Generating recommendations for launch messaging...",
+    "Comparing competitive positioning in the premium segment...",
+    "Synthesising sentiment and objections into a plan...",
+    "Estimating retention drivers for the first 90 days..."
+  ],
+  "timelineEvents": [
+    { "id": 1, "label": "Simulation started", "detail": "AI agents began processing customer signals." },
+    { "id": 2, "label": "Personas generated", "detail": "5 priority personas were validated and ranked." },
+    { "id": 3, "label": "Sentiment analysis complete", "detail": "Emotional reactions were surfaced across segments." },
+    { "id": 4, "label": "Pricing analysis complete", "detail": "Price elasticity and willingness were mapped." },
+    { "id": 5, "label": "Report generated", "detail": "A launch-ready intelligence profile is available." }
+  ]
+}

@@ -1,0 +1,2 @@
+import { Component } from 'react';
+export class ErrorBoundary extends Component{state={failed:false};static getDerivedStateFromError(){return{failed:true}}render(){if(this.state.failed)return <main className="system-state" role="alert"><span className="label">SYSTEM RECOVERY</span><h1>Something interrupted the signal.</h1><p>Reload the experience to reconnect with PersonaForge intelligence.</p><button onClick={()=>location.reload()}>Reload application</button></main>;return this.props.children}}
